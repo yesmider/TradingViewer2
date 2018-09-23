@@ -1,7 +1,7 @@
 import requests
 
 class WOWAPI:
-    def __init__(self,api_key=dfdfca2x4bsf2cnxqkx3utrjn9w5yw2h,region='TW'):
+    def __init__(self,api_key='dfdfca2x4bsf2cnxqkx3utrjn9w5yw2h',region='TW'):
         self.api_key=api_key
         self.region = region
         self.Session = requests.Session()
